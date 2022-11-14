@@ -51,6 +51,16 @@ h1, h2, h3, p
 {
  background-color: var(--background-team-color);
 color: var(--background-color);
+
+
+}
+.hiro-button
+{
+        margin-top: 30px;
+        height: 50px;
+background:var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /*--------------Button portfolio-----------*/
@@ -64,20 +74,31 @@ color: var(--background-color);
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
+        padding: 6px 22px;
+        
 
         margin-left: auto;
         margin-right: auto;
+
+        
+        border-color:var(--background-team-color);
+        border-radius: 4px;
 
 }
 .port-button:hover, .port-button:focus
 {
         color: var(--poster-text-color);
         background-color: var(--button-color);
+
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px 
+        rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .button-list
 {
         display: flex;
-        text-align: center;
+        justify-content: center;
+        gap: 8px;
         background-color: var(--poster-text-color);
         /*margin-left: auto;
         margin-right: auto;*/
@@ -248,23 +269,29 @@ margin-left: 93px;
 text-align: center;
  }
     /*-------------------------WORK------------------*/
-   /* .main
-    {
-        background-color: var(--color-main);
-    }*/
+   
+
+   
     .main-list
     {
         background-color: var(--poster-text-color) ; 
     }
     .title-work
     {
-        display: flex;
-        justify-content:center; /*first:space-around;*/
-       /* flex-wrap: nowrap;*/
+       display: flex;
         gap: 30px;
         margin: 0;
         padding-left: 0px;
 
+    }
+    .list-work
+    {
+        width:  270px;
+    }
+    .desckription-work
+    {
+        padding: 0;
+        margin: 0;
     }
    
  .text-work
@@ -331,12 +358,23 @@ text-align: center;
         padding-left: 0px;
        /* padding-top: 50px;*/
         padding-bottom: 94px;
-        text-align: center;
+        /*text-align: center;*/
    
-}
+} 
+
 .list-command
 {
+       
+        
         background-color: var(--poster-text-color);
+        position: relative;
+        text-align: center;
+
+            
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
+        rgba(0, 0, 0, 0.2);
+        border-radius: 0 0 4px 4px;
 }
 
 .text-command
@@ -350,8 +388,6 @@ text-align: center;
         padding-top: 94px;
         margin-bottom: 50px;
 }
-        
-
 .title-text
 {
         color: var(--title-text-color);
@@ -359,18 +395,28 @@ text-align: center;
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
-
 }
 .pict-command
 {
         margin-bottom: 30PX;
+
+       /* display: block;
+        position: absolute;
+        width: 270px;
+        height: 368px
+
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
+         rgba(0, 0, 0, 0.2);
+         border-radius: 0px 0px 4px 4px;*/
+
 }
 /*-----------------------STILE DESCRIPTION------------------*/
 .desckription-work
 {
         font-weight: 400;
-       /* font-size: 16px;
-        line-height: 1.71;*/
+        font-size: 16px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         margin-bottom: 10PX;
         /*color: var(--primary-text-color);*/
@@ -385,7 +431,6 @@ text-align: center;
         line-height: 1.18;
         letter-spacing: 0.03em;
         margin-bottom: 30px;
-
 }
 .desckription-port
 {
@@ -394,17 +439,36 @@ text-align: center;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
-
+        color: var(--primary-text-color);
 }
 /*-----------------------PORTFOLIO-STILE------------------*/
+.main-port
+{
+        padding-top: 94px;
+}
 .flex-portfolio
 {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
         width: auto;
+        padding-top: 50px;
+        padding-bottom: 94px;
         padding-left: 0px;
         margin-left: 0px;
+}
+.main-list
+{
+        border: 1px solid #EEEEEE;
+}
+.desckription-port
+{
+        padding-left: 25px;
+        margin-top: 10px;
+}
+.h-port
+{
+        padding-left: 25px;
 }
 /* -----------------------------------footer style-------------------------*/ 
 
@@ -415,11 +479,11 @@ text-align: center;
        /* height: 252px;*/
        /* left: 0px; */
         margin:0;
-        
-        
 }
 .container-foter
 {
+        display:flex;
+        flex-direction: column;
        width: 1200px;
       /*height: 256px;*/        
        padding-left: 15px;
