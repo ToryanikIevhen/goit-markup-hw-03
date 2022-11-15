@@ -121,6 +121,11 @@ border-radius: 4px;
         align-items: center;
         /*background-color:forestgreen;*/
 }
+.nav
+{
+        display: flex;
+        align-items: center;
+}
 .title-header
 {
         
@@ -132,7 +137,7 @@ border-radius: 4px;
 
 .log 
 {
-  display:flexbox;
+  
   color: var(--accent-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -158,11 +163,11 @@ display:flex;
 margin-left: 93px;
 
 }
-.title-nav .text-nav:last-child
+/*.title-nav .text-nav:last-child
 {
         margin-right: 0;
 }
-
+*/
 .link-nav 
 {
         padding-top: 32px;
@@ -184,7 +189,8 @@ margin-left: 93px;
 .title-nav-addres 
 {
         display:flex;
-        margin-left: auto;      
+        margin-left: auto;   
+        padding-right: 20px;   
 } 
 .title-nav-addres .title-addres+.title-addres
 {
@@ -270,7 +276,10 @@ text-align: center;
  }
     /*-------------------------WORK------------------*/
    
-
+.work
+{
+        display: flex;
+}
    
     .main-list
     {
@@ -280,18 +289,23 @@ text-align: center;
     {
        display: flex;
         gap: 30px;
-        margin: 0;
-        padding-left: 0px;
+     
+
 
     }
     .list-work
     {
-        width:  270px;
+
     }
     .desckription-work
     {
-        padding: 0;
-        margin: 0;
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        margin-bottom: 10PX;
+       
     }
    
  .text-work
@@ -464,11 +478,14 @@ text-align: center;
 .desckription-port
 {
         padding-left: 25px;
-        margin-top: 10px;
+        padding-top: 4px;
+        padding-bottom: 20px;
+        margin-top: 0;
 }
 .h-port
 {
         padding-left: 25px;
+        padding-top: 20px;
 }
 /* -----------------------------------footer style-------------------------*/ 
 
