@@ -59,7 +59,7 @@ height: auto;
 }
 .hiro-button {
   margin-top: 30px;
-  height: 50px;
+  padding:10px 32px ;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -156,9 +156,8 @@ height: auto;
 
 .title-nav {
   display: flex;
-  /*margin-left: 93px;*/
   flex-direction: row;
-padding: 32px 0;
+/*padding: 32px 0;*/
 margin-left: auto;
 color: var(--title-text-color);
 }
@@ -214,7 +213,6 @@ color: var(--title-text-color);
 .hiro {
   background-color: var(--background-color);
   text-align: center;
-  /*font-family: 'Roboto', sans-serif;*/
 }
 .flex-hiro {
   display: flex;
@@ -226,9 +224,7 @@ color: var(--title-text-color);
 }
 .text-hiro {
   color: var(--poster-text-color);
-  /* text-align: center;*/
-  /* padding: 200px 452px 20px 452px;
-  display: flex;*/
+  
   width: 700px;
   flex-direction: column;
   justify-content: center;
@@ -246,10 +242,7 @@ color: var(--title-text-color);
   color: var(--poster-text-color);
   background-color: var(--button-color);
   font-family: inherit;
-  /* text-align: center;*/
-  width: 216px;
   cursor: pointer;
-  /*height: 50px;*/
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -310,9 +303,8 @@ color: var(--title-text-color);
 }
 .title-gallery {
   display: flex;
-  /*align-items: center;*/
   gap: 30px;
-  margin-top: 50px;
+ 
 }
 .text-gallery {
   color: var(--title-text-color);
@@ -321,7 +313,8 @@ color: var(--title-text-color);
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  /*margin-top: 94px;*/
+  margin-bottom: 50px;
+ 
 }
 
 /*----------COMMAND--------------*/
@@ -397,9 +390,7 @@ color: var(--title-text-color);
   color: var(--primary-text-color);
 }
 /*-----------------------PORTFOLIO-STILE------------------*/
-/*.main-port {
-  padding-top: 94px;
-}*/
+
 .section 
 {
         padding: 94px 0;
@@ -411,18 +402,15 @@ color: var(--title-text-color);
   gap: 30px;
  margin-top: 50px;
 }
-.main-list {
-  /*border: 1px solid #eeeeee;*/
-}
+
 .desckription-port {
-  /*padding-left: 25px;*/
+  margin-left: 25px;
   margin-top: 4px;
-  /*padding-bottom: 20px;
-  margin-top: 0;*/
+  
 }
 .h-port {
-  padding-left: 25px;
-  padding-top: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 /* -----------------------------------footer style-------------------------*/
 
@@ -467,7 +455,6 @@ color: var(--title-text-color);
 margin-top: 9px;
 }
 
-/*padding-left: 215px;*/
 
 .link-blank {
   text-decoration: none;
