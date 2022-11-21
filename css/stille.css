@@ -219,7 +219,7 @@ color: var(--title-text-color);
 /*-------------------------------------------HIRO-----------------------*/
 
 .hiro {
-  background-image: url(/imeges/hiro.jpg/);
+  background-image: url(/imeges/hiro.jpg);
   height: 600px;
    width: 1600px;
    margin-left: auto;
