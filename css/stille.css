@@ -84,7 +84,7 @@ section
 .hiro-button {
   margin-top: 30px;
   padding:10px 32px ;
-  margin-left: 50%;
+  margin-left: 40%;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -219,29 +219,25 @@ color: var(--title-text-color);
 /*-------------------------------------------HIRO-----------------------*/
 
 .hiro {
-  background-color: var(--background-color);
-  padding: 200px 452px;
-}
-.flex-hiro {
-  /*display: flex;
-  flex-direction: column;
-  align-items: center;*/
   background-image: url(/imeges/hiro.jpg);
- height: 600px;
-  width: 100%;
-  /*justify-content: center;*/
-  /*   width: 1200px;*/
+  height: 600px;
+   width: 1600px;
+   margin-left: auto;
+   margin-right: auto;
+  padding: 200px 0;
+  text-align: center;
 }
+
+
 .text-hiro {
   color: var(--poster-text-color);
-  
-  width: px;
+  margin: 0 auto 30px; 
+  width:692px;
   
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -264,6 +260,10 @@ color: var(--title-text-color);
 
 .main-list {
   background-color: var(--poster-text-color);
+}
+.work
+{
+  padding-top: 94px;
 }
 .title-work {
   display: flex;
@@ -352,7 +352,7 @@ color: var(--title-text-color);
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
+
   margin-bottom: 50px;
 }
 .title-text {
@@ -394,10 +394,6 @@ color: var(--title-text-color);
 }
 /*-----------------------PORTFOLIO-STILE------------------*/
 
-.section 
-{
-        padding: 94px 0;
-}
 
 .flex-portfolio {
   display: flex;
@@ -421,16 +417,7 @@ color: var(--title-text-color);
   background: var(--background-color);
  padding: 60px 0;
 }
-.container {
 
-
-  width: 1200px;
-  /*height: 256px;*/
-  padding-left: 15px;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-}
 .foter-log
 {
     margin-bottom: 20px;
