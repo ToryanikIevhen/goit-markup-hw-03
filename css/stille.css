@@ -33,7 +33,7 @@ h2,
 h3,
 h4,
 p {
-  margin-bottom: 0;
+  margin: 0;
 }
 img 
 {
@@ -219,12 +219,12 @@ color: var(--title-text-color);
 /*-------------------------------------------HIRO-----------------------*/
 
 .hiro {
-  /*background-image: url(/imeges/hiro.jpg);
+  background-image: url(/imeges/hiro.jpg);
   height: 600px;
    width: 1600px;
    margin-left: auto;
-   margin-right: auto;*/
-   background-color: var(--background-color);
+   margin-right: auto;
+  /* background-color: var(--background-color);*/
   padding: 200px 0;
   text-align: center;
 }
@@ -264,13 +264,14 @@ color: var(--title-text-color);
 }
 .work
 {
-  padding-top: 94px;
+  padding-bottom: 0;
 }
 .title-work {
   display: flex;
   gap: 30px;
 }
-.list-work {
+.list-work
+{
 }
 .desckription-work {
   padding-top: 10px;
@@ -278,7 +279,7 @@ color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .text-work {
@@ -300,11 +301,11 @@ color: var(--title-text-color);
   clip: rect(0 0 0 0);
 }
 /*---------GALLERY______-----------*/
-.container-gallery {
+/*.container-gallery {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 .title-gallery {
   display: flex;
   gap: 30px;
@@ -356,27 +357,32 @@ color: var(--title-text-color);
 
   margin-bottom: 50px;
 }
+.com
+{
+  font-family: "Roboto";
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
 .title-text {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+
 }
 .contener-text
 {
-        margin: 10px  0;
+      padding: 30px  0;
 }
 
 /*-----------------------STILE DESCRIPTION------------------*/
-.desckription-work {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
-  /*color: var(--primary-text-color);*/
-}
+
+
 .desckription {
   font-family: "Roboto";
   color: var(--primary-text-color);
@@ -412,7 +418,12 @@ color: var(--title-text-color);
   margin-left: 25px;
   margin-top: 20px;
 }
-/* -----------------------------------footer style-------------------------*/
+.port-wrap
+{
+  padding: 20px 24px;
+  border: 1px  solid #EEEEEE;
+}
+/* ----port-wrap-------------------------------footer style-------------------------*/
 
 .footer {
   background: var(--background-color);
@@ -421,7 +432,6 @@ color: var(--title-text-color);
 
 .foter-log
 {
-    margin-bottom: 20px;
     line-height: 1.2;
 }
 .stile-log-footer {
@@ -441,7 +451,7 @@ color: var(--title-text-color);
   line-height: 1.7;
 }
 
-.list-footer:nth-child(-n + 3) 
+.list-footer:not(first-clild) 
 {
 margin-top: 9px;
 }
