@@ -21,7 +21,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+ /* margin: 0;*/
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   background-color: var(--poster-text-color);
@@ -219,11 +219,11 @@ color: var(--title-text-color);
 /*-------------------------------------------HIRO-----------------------*/
 
 .hiro {
-  background-image: url(/imeges/hiro.jpg);
+/*  background-image: url(/imeges/hiro.jpg);
   height: 600px;
    width: 1600px;
    margin-left: auto;
-   margin-right: auto;
+   margin-right: auto;*/
   background-color: var(--background-color);
   padding: 200px 0;
   text-align: center;
@@ -273,14 +273,7 @@ color: var(--title-text-color);
 .list-work
 {
 }
-.desckription-work {
-  padding-top: 10px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin-top: 10px;
-}
+
 
 .text-work {
   color: var(--title-text-color);
@@ -289,6 +282,7 @@ color: var(--title-text-color);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .visually-hidden {
   position: absolute;
@@ -368,8 +362,8 @@ color: var(--title-text-color);
 }
 .title-text {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -394,7 +388,7 @@ color: var(--title-text-color);
 .desckription-port {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -409,15 +403,15 @@ color: var(--title-text-color);
  margin-top: 50px;
 }
 
-.desckription-port {
-  margin-left: 25px;
+/*.desckription-port {
+  margin-left: 5%;
   margin-top: 4px;
   
 }
 .h-port {
-  margin-left: 25px;
+  margin-left: 5%;
   margin-top: 20px;
-}
+}*/
 .port-wrap
 {
   padding: 20px 24px;
@@ -451,7 +445,7 @@ color: var(--title-text-color);
   line-height: 1.7;
 }
 
-.list-footer:not(first-clild) 
+.list-footer:not(:first-child) 
 {
 margin-top: 9px;
 }
