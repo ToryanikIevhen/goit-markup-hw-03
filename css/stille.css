@@ -219,7 +219,7 @@ color: var(--title-text-color);
 /*-------------------------------------------HIRO-----------------------*/
 
 .hiro {
-/*  background-image: url(/imeges/hiro.jpg);
+ background-image: url('../imeges/hiro.jpg');
   height: 600px;
    width: 1600px;
    margin-left: auto;
@@ -278,7 +278,7 @@ color: var(--title-text-color);
 .text-work {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -357,13 +357,13 @@ color: var(--title-text-color);
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .title-text {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -382,17 +382,11 @@ color: var(--title-text-color);
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.18;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
-.desckription-port {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
+
+
 /*-----------------------PORTFOLIO-STILE------------------*/
 
 
@@ -403,15 +397,23 @@ color: var(--title-text-color);
  margin-top: 50px;
 }
 
-/*.desckription-port {
-  margin-left: 5%;
-  margin-top: 4px;
+.desckription-port {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   
 }
 .h-port {
-  margin-left: 5%;
-  margin-top: 20px;
-}*/
+color: var(--title-text-color);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
 .port-wrap
 {
   padding: 20px 24px;
