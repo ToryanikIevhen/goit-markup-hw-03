@@ -218,13 +218,15 @@ color: var(--title-text-color);
 
 /*-------------------------------------------HIRO-----------------------*/
 
+
 .hiro {
- background-image: url('../imeges/hiro.jpg');
-  height: 600px;
-   width: 1600px;
+ /*background-image:linear-gradient(rgba(47, 48, 58, 0.4)),
+  url('../imeges/hiro.jpg');
+  min-height: 600px;
+  max-width: 1600px;
    margin-left: auto;
    margin-right: auto;*/
-  background-color: var(--background-color);
+ background-color: var(--background-color);
   padding: 200px 0;
   text-align: center;
 }
@@ -270,10 +272,11 @@ color: var(--title-text-color);
   display: flex;
   gap: 30px;
 }
+/*
 .list-work
 {
 }
-
+*/
 
 .text-work {
   color: var(--title-text-color);
@@ -296,7 +299,7 @@ color: var(--title-text-color);
 }
 /*---------GALLERY______-----------*/
 /*.container-gallery {
-  width: 1200px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }*/
