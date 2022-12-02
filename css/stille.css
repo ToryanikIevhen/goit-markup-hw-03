@@ -11,6 +11,7 @@
   --color-fon: #eeeeee;
   --colo-secktion: #ececec;
   --color-main: #f5f5f5;
+  --comand-icons:#AFB1B8;
 }
 html {
   box-sizing: border-box;
@@ -199,12 +200,14 @@ color: var(--title-text-color);
   margin-left: 50px;
 }
 .milto-addres {
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
 }
 .tel-addres {
   font-family: "Roboto", sans-serif;
@@ -215,7 +218,24 @@ color: var(--title-text-color);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.title-addres
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.title-addres-smartfon
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.icon-mail
+{
 
+}
 /*-------------------------------------------HIRO-----------------------*/
 
 
@@ -376,7 +396,43 @@ color: var(--title-text-color);
 {
       padding: 30px  0;
 }
+.social-list
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.social-link
+{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+background-color: var(--poster-text-color);
+color: var(--comand-icons);
 
+  
+}
+.social-link:hover,
+.social-link:focus
+{
+  background-color:#2196F3;
+  
+
+}
+.social-icon:hover,
+.social-icon:focus
+{
+  fill:#fff;
+}
+.social-icon
+{
+  fill: var(--comand-icons);
+ 
+}
 /*-----------------------STILE DESCRIPTION------------------*/
 
 
