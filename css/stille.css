@@ -195,12 +195,14 @@ color: var(--title-text-color);
 .title-nav-addres {
   display: flex;
   margin-left: auto;
+  gap: 30px;
 }
 .title-nav-addres .title-addres + .title-addres {
   margin-left: 50px;
 }
 .milto-addres {
-
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -209,7 +211,19 @@ color: var(--title-text-color);
   color: var(--primary-text-color);
 
 }
+.icon-nav
+{
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+.icon-nav:hover,
+.icon-nav:focus
+{
+  fill: var(--accent-color);
+}
 .tel-addres {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-weight: 500;
@@ -240,12 +254,13 @@ color: var(--title-text-color);
 
 
 .hiro {
- /*background-image:linear-gradient(rgba(47, 48, 58, 0.4)),
+ background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)),
   url('../imeges/hiro.jpg');
   min-height: 600px;
   max-width: 1600px;
    margin-left: auto;
-   margin-right: auto;*/
+   margin-right: auto;
  background-color: var(--background-color);
   padding: 200px 0;
   text-align: center;
@@ -281,9 +296,7 @@ color: var(--title-text-color);
 /*-------------------------WORK------------------*/
 
 
-/*.main-list {
-  background-color: var(--poster-text-color);
-}*/
+
 .work
 {
   padding-bottom: 0;
@@ -292,11 +305,6 @@ color: var(--title-text-color);
   display: flex;
   gap: 30px;
 }
-/*
-.list-work
-{
-}
-*/
 
 .text-work {
   color: var(--title-text-color);
@@ -316,6 +324,22 @@ color: var(--title-text-color);
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+.work-icons
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-team-color);
+  
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.icon-card
+{
+  fill: var(--title-text-color);
 }
 /*---------GALLERY______-----------*/
 /*.container-gallery {
@@ -433,6 +457,36 @@ color: var(--comand-icons);
   fill: var(--comand-icons);
  
 }
+/*------------------CLIENT-----------------------------------*/
+.client
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.icons-list
+{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.client-list
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  background-color: var(--color-main);
+}
 /*-----------------------STILE DESCRIPTION------------------*/
 
 
@@ -510,7 +564,11 @@ letter-spacing: 0.06em;
 {
 margin-top: 9px;
 }
-
+.icon-footer
+{
+  display: flex;
+  flex: wrap;
+}
 
 .link-blank {
   text-decoration: none;
@@ -528,12 +586,26 @@ margin-top: 9px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-/*.milto-addres
+.footer-peyg
 {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color:var(--primary-text-color);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--poster-text-color);
+}
+.icon-list
+{
+  display: flex;
+}
+.liis-icons
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
-}*/
