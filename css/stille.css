@@ -22,7 +22,6 @@ html {
   box-sizing: border-box;
 }
 body {
- /* margin: 0;*/
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   background-color: var(--poster-text-color);
@@ -120,8 +119,7 @@ section
   justify-content: center;
   gap: 8px;
   background-color: var(--poster-text-color);
-  /*margin-left: auto;
-        margin-right: auto;*/
+  
 }
 
 /*----------------------------------------HEDER----------------*/
@@ -139,10 +137,7 @@ section
 {
   margin-left: 93px;
 }
-/*.text-nav
-{
-  margin-right: 50px;
-}*/
+
 .title-header {
     border-bottom: 1px solid var(--colo-secktion)
 }
@@ -216,8 +211,8 @@ color: var(--title-text-color);
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
-.icon-nav:hover,
-.icon-nav:focus
+.link:hover .icon-nav,
+.link:focus .icon-nav
 {
   fill: var(--accent-color);
 }
@@ -342,11 +337,7 @@ color: var(--title-text-color);
   fill: var(--title-text-color);
 }
 /*---------GALLERY______-----------*/
-/*.container-gallery {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}*/
+
 .title-gallery {
   display: flex;
   gap: 30px;
@@ -443,13 +434,12 @@ color: var(--comand-icons);
 .social-link:hover,
 .social-link:focus
 {
-  background-color:#2196F3;
-  
-
+  background-color: var(--accent-color);
 }
-.social-icon:hover,
-.social-icon:focus
+.social-link:hover .social-icon,
+.social-link:focus .social-icon
 {
+  
   fill:#fff;
 }
 .social-icon
